@@ -7,7 +7,7 @@ router.get("/", function(req, res, next) {
 });
 
 router.get("/vegan_food", function(req, res, next) {
-  res.send({ food: "hummus" });
+  res.send({ vegan_food: "hummus" });
 });
 
 router.get("/baby_supplies", function(req, res, next) {
