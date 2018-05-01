@@ -6,13 +6,12 @@ router.get("/", function(req, res, next) {
   res.render("index", { title: "BEYONCE API" });
 });
 
-router.get("/fact", function(req, res, next) {
-  res.send({ fact: "Born in Houston, Texas" });
+router.get("/veganFood", function(req, res, next) {
+  res.send({ food: "hummus" });
 });
 
-router.get("/facts", function(req, res, next) {
+router.get("/veganFood", function(req, res, next) {
   res.send([
-    { fact: "Born in Houston, Texas" },
     {
       fact:
         "As a kid, Beyoncé would charge her parents' friends $5 each to watch her perform."
