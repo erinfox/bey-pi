@@ -7,7 +7,9 @@ router.get("/", function(req, res, next) {
 });
 
 router.get("/fact", function(req, res, next) {
-  res.send([{ fact: "Born in Houston, Texas" }]);
+  res.send({ fact: "Born in Houston, Texas" });
 });
 
 module.exports = router;
+
+// https://stark-badlands-52044.herokuapp.com/fact
