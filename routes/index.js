@@ -10,11 +10,11 @@ router.get("/veganFood", function(req, res, next) {
   res.send({ food: "hummus" });
 });
 
-router.get("/baby_clothes", function(req, res, next) {
+router.get("/baby_supplies", function(req, res, next) {
   res.send([
-    { baby_clothes: "onesie" },
-    { baby_clothes: "diaper" },
-    { baby_clothes: "bottle" }
+    { baby_supplies: "onesie" },
+    { baby_supplies: "diaper" },
+    { baby_supplies: "bottle" }
   ]);
 });
 
