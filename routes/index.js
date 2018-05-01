@@ -6,7 +6,7 @@ router.get("/", function(req, res, next) {
   res.render("index", { title: "BEYONCE API" });
 });
 
-router.get("/veganFood", function(req, res, next) {
+router.get("/vegan_food", function(req, res, next) {
   res.send({ food: "hummus" });
 });
 
