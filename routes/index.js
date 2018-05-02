@@ -18,7 +18,7 @@ router.get("/baby_supplies", function(req, res, next) {
   ]);
 });
 router.get("/dry_cleaning", function(req, res, next) {
-  res.send([{ dry_cleaning: "bootilicious things" }]);
+  res.send({ dry_cleaning: "bootilicious things" });
 });
 
 router.get("/facts", function(req, res, next) {
