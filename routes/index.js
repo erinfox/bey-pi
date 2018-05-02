@@ -13,7 +13,7 @@ router.get("/vegan_food", function(req, res, next) {
 router.get("/baby_supplies", function(req, res, next) {
   res.send([
     { baby_supplies: "onesie" },
-    { baby_supplies: "diaper" },
+    { baby_supplies: "diapers" },
     { baby_supplies: "bottle" }
   ]);
 });
