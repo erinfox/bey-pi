@@ -1,4 +1,4 @@
-# bey-api
+# bey-pi
 api for all things yoncé
 
 
