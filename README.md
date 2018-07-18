@@ -1,4 +1,4 @@
-# beyonce-api
+# bey-api
 api for all things yoncé
 
 
