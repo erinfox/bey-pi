@@ -8,21 +8,6 @@ router.get("/", function(req, res, next) {
   res.render("index", {});
 });
 
-router.get("/vegan_food", function(req, res, next) {
-  res.send({ vegan_food: "hummus" });
-});
-
-router.get("/baby_supplies", function(req, res, next) {
-  res.send([
-    { baby_supplies: "onesie" },
-    { baby_supplies: "diapers" },
-    { baby_supplies: "bottle" }
-  ]);
-});
-router.get("/dry_cleaning", function(req, res, next) {
-  res.send({ dry_cleaning: "bootilicious things" });
-});
-
 router.get("/facts", function(req, res, next) {
   res.send([
     {
