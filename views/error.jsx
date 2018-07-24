@@ -1,13 +1,23 @@
 var React = require("react");
 
-class IndexComponent extends React.Component {
+class ErrorComponent extends React.Component {
   render() {
     return (
-      <div>
+      <div style={styles.container}>
         <h1> YONCE ERROR </h1>
       </div>
     );
   }
 }
 
-module.exports = IndexComponent;
+const styles = {
+  container: {
+    padding: "50px",
+    fontSize: "14px",
+    fontFamily: "Lucida Grande"
+  },
+  links: {
+    color: "#00B7FF"
+  }
+};
+module.exports = ErrorComponent;

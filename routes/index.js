@@ -2,6 +2,8 @@ var express = require("express");
 var router = express.Router();
 
 /* GET home page. */
+
+// Configured jsx view engine in root level app.js to look for index file in views folder
 router.get("/", function(req, res, next) {
   res.render("index", {});
 });

@@ -9,7 +9,8 @@ var usersRouter = require("./routes/users");
 
 var app = express();
 
-// view engine setup
+// view engine setup to handle jsx so we can write react in the views folder
+// see res.render in routes/index.js sending back index file from views folder
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "jsx");
 app.engine("jsx", require("express-react-views").createEngine());
