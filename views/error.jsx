@@ -4,7 +4,12 @@ class ErrorComponent extends React.Component {
   render() {
     return (
       <div style={styles.container}>
-        <h1> YONCE ERROR </h1>
+        <h1> YONCÉ ERROR </h1>
+        <h4>
+          {" "}
+          This route may not exist. Please try a different route. (/albums,
+          /facts, /tracks)
+        </h4>
       </div>
     );
   }
