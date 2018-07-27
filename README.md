@@ -11,7 +11,7 @@ nodemon beyonceApi
 
 http://localhost:3000/
 
-favorite route = /facts
+
 
 
 
