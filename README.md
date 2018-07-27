@@ -5,7 +5,9 @@ api for all things yoncé
 
 npm install
 
-npm start
+npm install -g nodemon
+
+nodemon beyonceApi
 
 http://localhost:3000/
 
